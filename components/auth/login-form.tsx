@@ -51,10 +51,12 @@ export function LoginForm() {
         toast.error(response.error);
       } else {
         toast.success("Logged in successfully!");
-        router.push("/bookings");
+        router.push("/");
       }
       setIsLoading(false);
     } catch (error) {
+      // console.log(error);
+
       toast.error((error as Error)?.message);
     } finally {
       setIsLoading(false);

@@ -52,3 +52,11 @@ export interface REVIEW_TYPE {
   createdAt?: Date;
   updatedAt?: Date;
 }
+
+export interface BOOKING_TYPE {
+  _id: string;
+  hotelId: Types.ObjectId; // Reference to the "Hotel" collection
+  userId: Types.ObjectId; // Reference to the "User" collection
+  checkIn: Date; // Check-in date
+  checkOut: Date; // Check-out date
+}

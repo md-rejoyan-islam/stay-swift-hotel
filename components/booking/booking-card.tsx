@@ -1,12 +1,11 @@
 import { Badge } from "@/components/ui/badge";
-import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { format } from "date-fns";
 import { CalendarDays, MapPin } from "lucide-react";
 
 interface BookingCardProps {
   booking: {
-    id: number;
+    id: string;
     hotelName: string;
     checkIn: string;
     checkOut: string;
@@ -21,7 +20,7 @@ interface BookingCardProps {
   type: "upcoming" | "past";
 }
 
-export function BookingCard({ booking, type }: BookingCardProps) {
+export function BookingCard({ booking }: BookingCardProps) {
   const statusColors = {
     confirmed: "bg-green-500",
     pending: "bg-yellow-500",
@@ -82,7 +81,7 @@ export function BookingCard({ booking, type }: BookingCardProps) {
               </p>
             </div>
 
-            {type === "upcoming" && (
+            {/* {type === "upcoming" && (
               <div className="flex gap-2">
                 <Button
                   variant="outline"
@@ -92,7 +91,7 @@ export function BookingCard({ booking, type }: BookingCardProps) {
                 </Button>
                 <Button variant="destructive">Cancel</Button>
               </div>
-            )}
+            )} */}
           </div>
         </div>
       </CardContent>

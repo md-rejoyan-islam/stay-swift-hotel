@@ -1,18 +1,19 @@
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Card, CardContent } from "@/components/ui/card";
+import { formatDate } from "@/utils/data-utils";
 import { Star } from "lucide-react";
 
 export default function ReviewCard({
   review,
 }: {
   review: {
-    id: number;
     author: string;
     rating: number;
     date: string;
     content: string;
     helpful: number;
     avatar: string;
+    createdAt: string;
   };
 }) {
   return (
@@ -31,12 +32,12 @@ export default function ReviewCard({
                   {[...Array(review.rating)].map((_, i) => (
                     <Star
                       key={i}
-                      className="w-4 h-4 fill-primary text-primary"
+                      className="w-4 h-4 fill-yellow-400 text-yellow-400"
                     />
                   ))}
                 </div>
                 <span className="text-sm text-muted-foreground">
-                  {review.date}
+                  {formatDate(review?.createdAt)}
                 </span>
               </div>
             </div>

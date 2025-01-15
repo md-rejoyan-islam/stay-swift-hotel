@@ -322,7 +322,7 @@ export function PaymentForm({
 
         <Button
           type="submit"
-          className="w-full dark:bg-violet-600 dark:text-sky-100 dark:hover:bg-violet-700"
+          className="w-full bg-[#ff6a28] hover:bg-[#ff6a28]/90 text-white"
           disabled={isLoading}
         >
           {isLoading ? (
@@ -331,7 +331,7 @@ export function PaymentForm({
               Processing...
             </>
           ) : (
-            `Pay $${(124 * 2 + 49.6 + 24.8).toFixed(2)}`
+            <span>Pay</span>
           )}
         </Button>
       </form>

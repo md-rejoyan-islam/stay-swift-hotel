@@ -28,7 +28,9 @@ export async function login(data: { email: string; password: string }) {
     const response = await signIn("credentials", {
       email: data.email,
       password: data.password,
-      redirect: false, // Prevents automatic redirect
+      redirect: false,
+      // redirect: true, // Prevents automatic redirect
+      // redirectTo: "/",
     });
     return response;
   } catch (error) {
@@ -47,6 +49,7 @@ export async function login(data: { email: string; password: string }) {
 
 import Hotel from "@/models/hotel.model";
 import Review from "@/models/review.model";
+import mongoose from "mongoose";
 
 interface Review {
   content: string;
@@ -57,7 +60,6 @@ interface Review {
 
 export async function giveReview(data: Review) {
   const { hotel, user } = data;
-
   try {
     // check hotel and user
     const userExists = await User.exists({
@@ -79,11 +81,15 @@ export async function giveReview(data: Review) {
       ...data,
     });
 
-    const reviewData = await Review.findById(review._id)
+    const reviewData = await Review.findById<Promise<Review>>(review._id)
       .populate("user")
       .populate("hotel")
       .lean()
       .exec();
+
+    if (!reviewData) {
+      throw new Error("Review data not found");
+    }
 
     return {
       message: "Review added successfully",
@@ -98,7 +104,7 @@ export async function giveReview(data: Review) {
           ...reviewData.hotel,
           _id: reviewData.hotel._id.toString(),
         },
-        _id: reviewData._id.toString(),
+        _id: (reviewData._id as mongoose.Types.ObjectId).toString(),
       },
     };
   } catch (error) {

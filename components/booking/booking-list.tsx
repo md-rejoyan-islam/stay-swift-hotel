@@ -1,13 +1,17 @@
 import { BookingCard } from "./booking-card";
 
 interface Booking {
-  id: number;
+  id: string;
   hotelName: string;
   checkIn: string;
   checkOut: string;
   pricePerNight: number;
   numberOfNights: number;
   status: string;
+  hotel: {
+    name: string;
+    city: string;
+  };
 }
 
 interface BookingListProps {

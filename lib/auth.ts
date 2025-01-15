@@ -46,7 +46,11 @@ export const {
 
           return user;
         } catch (error) {
-          throw new Error(error.message);
+          if (error instanceof Error) {
+            throw new Error(error.message);
+          } else {
+            throw new Error("An unknown error occurred");
+          }
         }
       },
     }),

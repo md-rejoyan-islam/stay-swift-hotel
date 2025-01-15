@@ -1,10 +1,24 @@
-import { getHotelById } from "@/app/db/queries/hotel/hotel.query";
+import {
+  getHotelById,
+  getHotelReviewsById,
+} from "@/app/db/queries/hotel/hotel.query";
 import DetailsGallery from "@/components/hotels/details/details-gallery";
 import ReviewCard from "@/components/hotels/reviews/review-card";
 import { Badge } from "@/components/ui/badge";
 import { HOTEL_TYPE } from "@/utils/types";
 import { MapPin, Star } from "lucide-react";
 import Link from "next/link";
+
+interface Review {
+  _id: number;
+  author: string;
+  rating: number;
+  date: string;
+  content: string;
+  helpful: number;
+  avatar: string;
+  createdAt: string;
+}
 
 export default async function HotelDetails({
   params,
@@ -18,7 +32,7 @@ export default async function HotelDetails({
   const { checkIn, checkOut } = await searchParams;
 
   const hotel = (await getHotelById(id)) as HOTEL_TYPE;
-  // const reviews = await getHotelReviewsById(id);
+  const reviews = (await getHotelReviewsById(id)) as unknown as Review[];
 
   return (
     <div className="container max-width mx-auto px-4 py-8 ">
@@ -99,29 +113,8 @@ export default async function HotelDetails({
 
         <div className="grid grid-cols-1 md:grid-cols-2  gap-6 ">
           {/* Review Cards */}
-          {[
-            {
-              id: 1,
-              author: "Sarah M.",
-              rating: 5,
-              date: "December 2024",
-              content:
-                "Absolutely wonderful stay! The pool view was breathtaking and the staff was incredibly attentive. The room was spotless and modern.",
-              helpful: 24,
-              avatar: "/placeholder.svg?height=40&width=40",
-            },
-            {
-              id: 2,
-              author: "James K.",
-              rating: 4,
-              date: "November 2024",
-              content:
-                "Great location and beautiful property. The restaurant offered excellent dining options. Only minor issue was slow WiFi in some areas.",
-              helpful: 16,
-              avatar: "/placeholder.svg?height=40&width=40",
-            },
-          ]?.map((review) => (
-            <ReviewCard key={review.id} review={review} />
+          {reviews?.map((review) => (
+            <ReviewCard key={review._id} review={review} />
           ))}
         </div>
       </div>

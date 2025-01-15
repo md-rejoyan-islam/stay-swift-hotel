@@ -1,6 +1,9 @@
 import { Checkbox } from "@/components/ui/checkbox";
 
 export default function SortByAmenities() {
+
+
+
   return (
     <div>
       <h3 className="font-semibold mb-4 dark:text-sky-100">Amenities</h3>

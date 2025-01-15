@@ -1,6 +1,6 @@
 import { getHotelReviewsById } from "@/app/db/queries/hotel/hotel.query";
 import { ratingToCondition } from "@/utils/data-utils";
-import { HOTEL_TYPE } from "@/utils/types";
+import { HOTEL_TYPE, REVIEW_TYPE } from "@/utils/types";
 import clsx from "clsx";
 import Image from "next/image";
 import Link from "next/link";
@@ -17,15 +17,13 @@ export default async function HotelCard({
   checkIn?: string;
   checkOut?: string;
 }) {
-  const reviews = await getHotelReviewsById(hotel._id);
+  const reviews = (await getHotelReviewsById(
+    hotel._id
+  )) as unknown as REVIEW_TYPE[];
 
   const avarageRating =
-    reviews.reduce(
-      (acc: number, review: { _id: string; __v: number; rating?: number }) => {
-        return acc + (review?.rating || 0);
-      },
-      0
-    ) / (reviews.length || 1);
+    reviews.reduce((acc, review) => acc + (review?.rating || 0), 0) /
+      reviews.length || 0;
 
   return (
     <Card
@@ -53,7 +51,7 @@ export default async function HotelCard({
               </p>
               <div className="flex items-center space-x-4 mb-4">
                 <Badge variant="secondary" className="bg-[#ff6a28] text-white">
-                  {avarageRating}
+                  {avarageRating.toFixed(1)}
                 </Badge>
                 <span className="dark:text-sky-100">
                   {ratingToCondition(Math.floor(avarageRating))}

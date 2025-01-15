@@ -6,16 +6,35 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Card, CardContent } from "@/components/ui/card";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { auth } from "@/lib/auth";
-import { SessionType } from "@/lib/types";
+import { SessionType, UserType } from "@/lib/types";
 import { dayDifference } from "@/utils/data-utils";
 import { redirect } from "next/navigation";
+
+interface Booking {
+  id: string;
+  _id: string;
+  hotel: {
+    name: string;
+    city: string;
+    price: number;
+  };
+  checkIn: string;
+  checkOut: string;
+  pricePerNight: number;
+  numberOfNights: number;
+  hotelName: string;
+}
 
 export default async function BookingsPage() {
   const session = (await auth()) as unknown as SessionType;
 
-  const userData = await getUserByEmail(session?.user?.email);
+  const userData = (await getUserByEmail(
+    session?.user?.email
+  )) as unknown as UserType;
 
-  const bookings = await getBookingByUserId(userData?._id);
+  const bookings = (await getBookingByUserId(
+    userData?._id
+  )) as unknown as Booking[];
 
   const today = new Date().toISOString().split("T")[0];
 
@@ -28,9 +47,7 @@ export default async function BookingsPage() {
     ?.map((booking) => {
       return {
         ...booking,
-        pricePerNight: Math.floor(
-          booking?.hotel?.lowestRate + booking?.hotel?.highestRate / 2
-        ),
+        pricePerNight: booking?.hotel?.price,
         numberOfNights: dayDifference(booking.checkIn, booking.checkOut),
         status: "completed",
       };
@@ -45,15 +62,11 @@ export default async function BookingsPage() {
     ?.map((booking) => {
       return {
         ...booking,
-        pricePerNight: Math.floor(
-          booking?.hotel?.lowestRate + booking?.hotel?.highestRate / 2
-        ),
+        pricePerNight: booking?.hotel?.price,
         numberOfNights: dayDifference(booking.checkIn, booking.checkOut),
         status: "confirmed",
       };
     });
-
-  console.log("pastBookings", pastBookings);
 
   if (!session) {
     return redirect("/login");
@@ -65,48 +78,6 @@ export default async function BookingsPage() {
     image: session?.user?.image,
     avatar: session?.user?.name[0],
   };
-
-  // const pastBookings = [
-  //   {
-  //     id: 1,
-  //     hotelName: "Effotel By Sayaji Jaipur",
-  //     checkIn: "2021-12-12",
-  //     checkOut: "2021-12-14",
-  //     pricePerNight: 62,
-  //     numberOfNights: 2,
-  //     status: "completed",
-  //   },
-  //   {
-  //     id: 2,
-  //     hotelName: "Effotel By Sayaji Jaipur",
-  //     checkIn: "2021-12-12",
-  //     checkOut: "2021-12-14",
-  //     pricePerNight: 62,
-  //     numberOfNights: 2,
-  //     status: "completed",
-  //   },
-  // ];
-
-  // const upcomingBookings = [
-  //   {
-  //     id: 3,
-  //     hotelName: "Effotel By Sayaji Jaipur",
-  //     checkIn: "2021-12-12",
-  //     checkOut: "2021-12-14",
-  //     pricePerNight: 62,
-  //     numberOfNights: 2,
-  //     status: "confirmed",
-  //   },
-  //   {
-  //     id: 4,
-  //     hotelName: "Effotel By Sayaji Jaipur",
-  //     checkIn: "2021-12-12",
-  //     checkOut: "2021-12-14",
-  //     pricePerNight: 62,
-  //     numberOfNights: 2,
-  //     status: "pending",
-  //   },
-  // ];
 
   return (
     <div className="container mx-auto px-4 py-8 max-width">

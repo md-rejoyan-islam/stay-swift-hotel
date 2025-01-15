@@ -70,3 +70,12 @@ export const dayDifference = (checkIn: string, checkOut: string) => {
 
   return Math.abs(checkOutDate - checkInDate) / 86400000;
 };
+
+// 2025-01-15T17:10:08.211Z to 20  November 2024
+
+export const formatDate = (date: string) => {
+  const d = new Date(date);
+  const dayDate = format(d, "d");
+
+  return `${dayDate}  ${format(d, "MMMM yyyy")}`;
+};

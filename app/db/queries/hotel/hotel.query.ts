@@ -1,3 +1,4 @@
+import { UserType } from "@/lib/types";
 import Booking from "@/models/booking.model";
 import Hotel from "@/models/hotel.model";
 import Rating from "@/models/rating.model";
@@ -74,12 +75,19 @@ export async function getHotelRatingById(id: string) {
 export async function getHotelReviewsById(id: string) {
   const reviews = await Review.find<REVIEW_TYPE>({
     hotel: id,
-  }).lean();
+  })
+    .populate("user")
+    .populate("hotel")
+    .lean();
 
   return reviews?.map((review) => {
+    const user = review.user as UserType;
+
     return {
       ...review,
       _id: (review._id as mongoose.Types.ObjectId).toString(),
+      author: user.name,
+      avatar: user.image,
     };
   });
 }

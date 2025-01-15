@@ -1,4 +1,7 @@
-import { getHotelById } from "@/app/db/queries/hotel/hotel.query";
+import {
+  getHotelById,
+  getHotelReviewsById,
+} from "@/app/db/queries/hotel/hotel.query";
 import { getUserByEmail } from "@/app/db/queries/user/user.query";
 import ReviewCard from "@/components/hotels/reviews/review-card";
 import TakeReview from "@/components/hotels/reviews/take-review";
@@ -16,30 +19,8 @@ interface Review {
   content: string;
   helpful: number;
   avatar: string;
+  createdAt: string;
 }
-
-const reviews: Review[] = [
-  {
-    id: 1,
-    author: "Sarah M.",
-    rating: 5,
-    date: "December 2024",
-    content:
-      "Absolutely wonderful stay! The pool view was breathtaking and the staff was incredibly attentive. The room was spotless and modern.",
-    helpful: 24,
-    avatar: "/placeholder.svg?height=40&width=40",
-  },
-  {
-    id: 2,
-    author: "James K.",
-    rating: 4,
-    date: "November 2024",
-    content:
-      "Great location and beautiful property. The restaurant offered excellent dining options. Only minor issue was slow WiFi in some areas.",
-    helpful: 16,
-    avatar: "/placeholder.svg?height=40&width=40",
-  },
-];
 
 export default async function ReviewsPage({
   params,
@@ -48,9 +29,14 @@ export default async function ReviewsPage({
 }) {
   const { id } = await params;
 
-  //   const reviews = await getHotelReviewsById(id);
+  const reviews = (await getHotelReviewsById(id)) as unknown as Review[];
+
   const hotel = (await getHotelById(id)) as HOTEL_TYPE;
   const session = (await auth()) as unknown as SessionType;
+
+  const avarageRating =
+    reviews.reduce((acc, review) => acc + review.rating, 0) / reviews.length ||
+    0;
 
   const user = (await getUserByEmail(
     session?.user?.email
@@ -66,8 +52,10 @@ export default async function ReviewsPage({
             </h1>
             <div className="flex items-center mt-2">
               <div className="flex items-center mr-4">
-                <Star className="w-5 h-5 fill-primary text-primary" />
-                <span className="ml-1 font-semibold">5.3</span>
+                <Star className="w-5 h-5 fill-yellow-300 text-yellow-300" />
+                <span className="ml-1 font-semibold">
+                  {avarageRating.toFixed(1)}
+                </span>
               </div>
               <span className="text-muted-foreground">
                 {reviews?.length} Reviews
@@ -104,10 +92,19 @@ export default async function ReviewsPage({
           </div>
         </div>
 
-        <div className="grid gap-6">
+        <div className="grid gap-6 md:grid-cols-2 grid-cols-1">
           {reviews.map((review) => (
             <ReviewCard key={review.id} review={review} />
           ))}
+
+          {/* if no reviews found  */}
+          {reviews.length === 0 && (
+            <div className="col-span-full">
+              <div className="flex items-center justify-center p-10">
+                <p className="text-red-400">No reviews found</p>
+              </div>
+            </div>
+          )}
         </div>
       </div>
     </div>

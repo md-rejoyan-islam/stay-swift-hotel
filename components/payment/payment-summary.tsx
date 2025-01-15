@@ -93,7 +93,7 @@ export function PaymentSummary({ booking }: PaymentSummaryProps) {
 
         <div className="flex justify-between font-medium dark:text-sky-100">
           <div>Total</div>
-          <div>${total}</div>
+          <div>${total.toFixed(1)}</div>
         </div>
       </CardContent>
     </Card>

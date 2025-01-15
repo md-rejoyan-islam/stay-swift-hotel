@@ -1,11 +1,12 @@
 "use client";
 import { signIn } from "next-auth/react";
+
 import { Icons } from "../icons";
 import { Button } from "../ui/button";
 
 export default function ProviderLogin() {
   const handleGoogleLogin = () => {
-    signIn("google", { callbackUrl: "/bookings" });
+    signIn("google", { redirect: true, callbackUrl: "/bookings" });
   };
   const handleFacebookLogin = () => {
     signIn("facebook", { callbackUrl: "/bookings" });
