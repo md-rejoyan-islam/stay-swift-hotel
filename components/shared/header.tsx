@@ -57,7 +57,6 @@ export default function Header({
         <nav className={clsx("hidden md:flex items-center space-x-6 ")}>
           {sidemenu && (
             <>
-              <Navlink href="/recommended">Recommended Places</Navlink>
               <Navlink href="/about">About Us</Navlink>
               <Navlink href="/contact">Contact us</Navlink>
 
@@ -111,7 +110,6 @@ export default function Header({
       {isMenuOpen && (
         <div className="md:hidden">
           <nav className="flex flex-col space-y-4 p-4 bg-background dark:bg-sky-900/5 rounded-md dark:text-white">
-            <Navlink href="/recommended">Recommended Places</Navlink>
             <Navlink href="/about">About Us</Navlink>
             <Navlink href="/contact">Contact us</Navlink>
             <Navlink href="/bookings">Bookings</Navlink>
