@@ -1,0 +1,62 @@
+[
+  {
+    "_id": {
+      "$oid": "5f43f7f7f3f6b53d7c9b3b1a"
+    },
+    "name": "John Doe",
+    "email": "john@gmail.com",
+    "password": "$2a$10$qAl2Fzd3mr2WMCsTmcDUxORKMM7yglG.8mamR7IAWHslnm5GXceFS",
+    "role": "user",
+    "image": null
+  },
+  {
+    "_id": {
+      "$oid": "5f43f7f7f3f6b53d7c9b3b1b"
+    },
+    "name": "Md Rejoyan Islam",
+    "email": "rejoyanislam@gmail.com",
+    "password": "$2a$10$qAl2Fzd3mr2WMCsTmcDUxORKMM7yglG.8mamR7IAWHslnm5GXceFS",
+    "role": "user",
+    "image": null
+  },
+  {
+    "_id": {
+      "$oid": "5f43f7f7f3f6b53d7c9b3b1c"
+    },
+    "name": "Anamul Haque",
+    "email": "anamul12@gmail.com",
+    "password": "$2a$10$qAl2Fzd3mr2WMCsTmcDUxORKMM7yglG.8mamR7IAWHslnm5GXceFS",
+    "role": "user",
+    "image": null
+  },
+  {
+    "_id": {
+      "$oid": "5f43f7f7f3f6b53d7c9b3b1d"
+    },
+    "name": "Md. Rashedul Islam",
+    "email": "rased@gmail.com",
+    "password": "$2a$10$qAl2Fzd3mr2WMCsTmcDUxORKMM7yglG.8mamR7IAWHslnm5GXceFS",
+    "role": "user",
+    "image": null
+  },
+  {
+    "_id": {
+      "$oid": "5f43f7f7f3f6b53d7c9b3b1e"
+    },
+    "name": "Noman Ahmed",
+    "email": "nomanahmed@gmail.com",
+    "password": "$2a$10$qAl2Fzd3mr2WMCsTmcDUxORKMM7yglG.8mamR7IAWHslnm5GXceFS",
+    "role": "user",
+    "image": null
+  },
+  {
+    "_id": {
+      "$oid": "5f43f7f7f3f6b53d7c9b3b1f"
+    },
+    "name": "Khusru Ahmed",
+    "email": "khusruahmad@gmail.com",
+    "password": "$2a$10$qAl2Fzd3mr2WMCsTmcDUxORKMM7yglG.8mamR7IAWHslnm5GXceFS",
+    "role": "user",
+    "image": null
+  }
+]

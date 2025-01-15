@@ -1,0 +1,436 @@
+[
+  {
+    "_id": {
+      "$oid": "6778f4c9111dffd5478a663c"
+    },
+    "name": "Lakeside Inn",
+    "address": "Lakeview 21, 45000 Chittagong, Bangladesh",
+    "city": "Chittagong",
+    "location": { "lat": 22.355, "lng": 91.835 },
+    "price": 240,
+    "currency": "BDT",
+    "postalCode": "5810",
+    "propertyCategory": 3,
+    "amenities": ["Lake View", "Free WiFi", "Parking", "Bike Rentals"],
+    "gallery": [
+      "https://plus.unsplash.com/premium_photo-1687960116497-0dc41e1808a2",
+      "https://plus.unsplash.com/premium_photo-1687960116497-0dc41e1808a2",
+      "https://plus.unsplash.com/premium_photo-1687960116497-0dc41e1808a2"
+    ],
+    "overview": "Lakeside Inn is a luxurious haven in the heart of Chittagong, offering a seamless blend of modern elegance and timeless hospitality. Designed for business travelers, families, and couples alike, the hotel features stylish accommodations equipped with plush bedding, smart TVs, high-speed Wi-Fi, and private balconies with stunning views. Every detail is crafted to provide comfort, relaxation, and a sense of home away from home.\n \n Dining at Lakeside Inn is a culinary journey, with options ranging from a sophisticated restaurant serving international and local delicacies to a cozy café perfect for artisan coffee and light bites. Guests can unwind at the chic lounge bar, savoring signature cocktails and snacks in a vibrant atmosphere. The hotel also boasts a spa for rejuvenation, an infinity pool with breathtaking views, and a state-of-the-art fitness center, ensuring guests have everything they need for a memorable stay. \n \n Conveniently located near [airport/landmark], the hotel provides easy access to local attractions, outdoor adventures, and cultural experiences. With versatile event spaces equipped for meetings and celebrations, along with attentive multilingual staff, Lakeside Inn is the perfect destination for a blend of luxury, comfort, and personalized service.",
+    "shortDescription": "Charming inn by the lakeside.",
+    "thumbnailUrl": "https://plus.unsplash.com/premium_photo-1687960116497-0dc41e1808a2"
+  },
+  {
+    "_id": {
+      "$oid": "6778f4c9111dffd5478a663d"
+    },
+    "name": "Dhaka Grand Hotel",
+    "address": "21/A Gulshan Avenue, 1212 Dhaka, Bangladesh",
+    "city": "Dhaka",
+    "location": { "lat": 23.8103, "lng": 90.4125 },
+    "price": 350,
+    "currency": "BDT",
+    "postalCode": "1212",
+    "propertyCategory": 5,
+    "amenities": ["Free Breakfast", "Gym", "Spa", "Meeting Rooms"],
+    "gallery": [
+      "https://plus.unsplash.com/premium_photo-1687960116497-0dc41e1808a2",
+      "https://plus.unsplash.com/premium_photo-1687960116497-0dc41e1808a2",
+      "https://plus.unsplash.com/premium_photo-1687960116497-0dc41e1808a2"
+    ],
+    "overview": "Dhaka Grand Hotel offers unparalleled luxury in the vibrant heart of Dhaka city. The hotel features elegantly appointed rooms and suites, each designed with modern amenities and stylish décor. Guests can indulge in a variety of dining options, from a fine-dining restaurant serving international cuisine to a casual café offering light bites and beverages. The hotel's spa and wellness center provides a tranquil retreat for relaxation and rejuvenation, while the fitness center is equipped for a complete workout experience. \n \n With a prime location near [airport/landmark], Dhaka Grand Hotel is an ideal choice for business travelers, families, and couples seeking a sophisticated stay in the city. The hotel's event spaces are perfect for hosting meetings, conferences, and social gatherings, with state-of-the-art technology and personalized service. Whether you're here for business or leisure, Dhaka Grand Hotel ensures a memorable experience with exceptional comfort and hospitality.",
+    "shortDescription": "Luxury hotel in the heart of Dhaka.",
+    "thumbnailUrl": "https://plus.unsplash.com/premium_photo-1687960116497-0dc41e1808a2"
+  },
+  {
+    "_id": {
+      "$oid": "6778f4c9112dff55478a663e"
+    },
+    "name": "Sylhet Serenity",
+    "address": "Hilltop 3, 3100 Sylhet, Bangladesh",
+    "city": "Sylhet",
+    "location": { "lat": 24.9045, "lng": 91.8611 },
+    "price": 180,
+    "currency": "BDT",
+    "postalCode": "3100",
+    "propertyCategory": 4,
+    "amenities": ["Nature Views", "Free Parking", "Pet Friendly"],
+    "gallery": [
+      "https://plus.unsplash.com/premium_photo-1687960116497-0dc41e1808a2",
+      "https://plus.unsplash.com/premium_photo-1687960116497-0dc41e1808a2",
+      "https://plus.unsplash.com/premium_photo-1687960116497-0dc41e1808a2"
+    ],
+    "overview": "Sylhet Serenity offers tranquil stays amidst lush greenery and natural beauty. The hotel's cozy rooms are designed for comfort and relaxation, with modern amenities and serene views of the surrounding landscape. Guests can enjoy the peaceful ambiance, explore nearby attractions, and unwind in the hotel's garden area. \n \n Located in the scenic hills of Sylhet, Sylhet Serenity is an ideal retreat for nature lovers, families, and couples seeking a peaceful escape. The hotel's pet-friendly policy ensures that furry friends are welcome to join in the relaxation. Whether you're here for a weekend getaway or an extended stay, Sylhet Serenity provides a warm and inviting atmosphere for a memorable experience.",
+    "shortDescription": "Peaceful retreat in Sylhet.",
+    "thumbnailUrl": "https://plus.unsplash.com/premium_photo-1687960116497-0dc41e1808a2"
+  },
+  {
+    "_id": {
+      "$oid": "4778abf9111dffd54785663c"
+    },
+    "name": "Barisal Bay Inn",
+    "address": "Bay Road 15, 8200 Barisal, Bangladesh",
+    "city": "Barisal",
+    "location": { "lat": 22.701, "lng": 90.3535 },
+    "price": 200,
+    "currency": "BDT",
+    "postalCode": "8200",
+    "propertyCategory": 3,
+    "amenities": ["Bay View", "Restaurant", "Free WiFi"],
+    "gallery": [
+      "https://plus.unsplash.com/premium_photo-1687960116497-0dc41e1808a2",
+      "https://plus.unsplash.com/premium_photo-1687960116497-0dc41e1808a2",
+      "https://plus.unsplash.com/premium_photo-1687960116497-0dc41e1808a2"
+    ],
+    "overview": "Barisal Bay Inn is a cozy escape with stunning bay views and comfortable accommodations. The hotel's restaurant offers a variety of local and international dishes, while the free Wi-Fi ensures guests stay connected throughout their stay. \n \n Situated along the picturesque bay of Barisal, the hotel provides a peaceful setting for relaxation and exploration. Guests can enjoy the scenic views, take leisurely walks along the waterfront, and discover the charm of the local area. Whether you're here for a romantic getaway or a family vacation, Barisal Bay Inn offers a warm and welcoming atmosphere for a memorable stay.",
+    "shortDescription": "Cozy escape with bay views.",
+    "thumbnailUrl": "https://plus.unsplash.com/premium_photo-1687960116497-0dc41e1808a2"
+  },
+  {
+    "_id": {
+      "$oid": "4778abf9111dffd54785663d"
+    },
+    "name": "Rangamati Hillside Hotel",
+    "address": "Hillside 12, 4500 Rangamati, Bangladesh",
+    "city": "Rangamati",
+    "location": { "lat": 22.6572, "lng": 92.1723 },
+    "price": 250,
+    "currency": "BDT",
+    "postalCode": "4500",
+    "propertyCategory": 4,
+    "amenities": ["Hill View", "Cultural Tours", "Free WiFi", "Nature Trails"],
+    "gallery": [
+      "https://plus.unsplash.com/premium_photo-1687960116497-0dc41e1808a2",
+      "https://plus.unsplash.com/premium_photo-1687960116497-0dc41e1808a2",
+      "https://plus.unsplash.com/premium_photo-1687960116497-0dc41e1808a2"
+    ],
+    "overview": "Nestled in the scenic hills of Rangamati, this hotel offers stunning views and cultural experiences. Guests can explore the local area, enjoy complimentary Wi-Fi, and relax in the serene surroundings. \n \n Rangamati Hillside Hotel is perfect for travelers seeking a peaceful retreat with a touch of adventure. Whether you're here to unwind or discover the beauty of the region, the hotel provides a comfortable base for an unforgettable stay.",
+    "shortDescription": "Hotel with scenic hill views.",
+    "thumbnailUrl": "https://plus.unsplash.com/premium_photo-1687960116497-0dc41e1808a2"
+  },
+  {
+    "_id": {
+      "$oid": "4778abf9111dffd54785663e"
+    },
+    "name": "Cox's Paradise",
+    "address": "Beach Road 10, 4700 Cox's Bazar, Bangladesh",
+    "city": "Cox's Bazar",
+    "location": { "lat": 21.4272, "lng": 92.0058 },
+    "price": 300,
+    "currency": "BDT",
+    "postalCode": "4700",
+    "propertyCategory": 5,
+    "amenities": ["Beach Access", "Infinity Pool", "Free Breakfast"],
+    "gallery": [
+      "https://plus.unsplash.com/premium_photo-1687960116497-0dc41e1808a2",
+      "https://plus.unsplash.com/premium_photo-1687960116497-0dc41e1808a2",
+      "https://plus.unsplash.com/premium_photo-1687960116497-0dc41e1808a2"
+    ],
+    "overview": "A beachfront paradise offering luxurious stays with breathtaking views and exclusive amenities. Guests can enjoy direct access to the beach, relax by the infinity pool, and savor complimentary breakfast. \n \n Cox's Paradise is designed for discerning travelers seeking a premium experience by the sea. Whether you're here for a romantic escape or a family vacation, the hotel ensures a memorable stay with exceptional service and comfort.",
+    "shortDescription": "Beachfront luxury hotel.",
+    "thumbnailUrl": "https://plus.unsplash.com/premium_photo-1687960116497-0dc41e1808a2"
+  },
+  {
+    "_id": {
+      "$oid": "4778abf9111dffd54785663f"
+    },
+    "name": "Comilla Comfort Hotel",
+    "address": "Station Road 7, 3500 Comilla, Bangladesh",
+    "city": "Comilla",
+    "location": { "lat": 23.4578, "lng": 91.2046 },
+    "price": 190,
+    "currency": "BDT",
+    "postalCode": "3500",
+    "propertyCategory": 3,
+    "amenities": ["Restaurant", "Free WiFi", "Parking", "Conference Room"],
+    "gallery": [
+      "https://plus.unsplash.com/premium_photo-1687960116497-0dc41e1808a2",
+      "https://plus.unsplash.com/premium_photo-1687960116497-0dc41e1808a2",
+      "https://plus.unsplash.com/premium_photo-1687960116497-0dc41e1808a2"
+    ],
+    "overview": "Comfortable and affordable accommodations in Comilla. The hotel features a restaurant, free Wi-Fi, and convenient parking for guests. \n \n Comilla Comfort Hotel is ideal for budget-conscious travelers looking for a cozy stay in the city. Whether you're here for business or leisure, the hotel provides a welcoming environment for a pleasant visit.",
+    "shortDescription": "Affordable hotel in Comilla.",
+    "thumbnailUrl": "https://plus.unsplash.com/premium_photo-1687960116497-0dc41e1808a2"
+  },
+  {
+    "_id": {
+      "$oid": "4778abf9111dffd547856640"
+    },
+    "name": "Khulna Riverside Resort",
+    "address": "Riverside 18, 9200 Khulna, Bangladesh",
+    "city": "Khulna",
+    "location": { "lat": 22.8456, "lng": 89.5403 },
+    "price": 220,
+    "currency": "BDT",
+    "postalCode": "9200",
+    "propertyCategory": 4,
+    "amenities": ["River View", "Outdoor Pool", "Free Breakfast"],
+    "gallery": [
+      "https://plus.unsplash.com/premium_photo-1687960116497-0dc41e1808a2",
+      "https://plus.unsplash.com/premium_photo-1687960116497-0dc41e1808a2",
+      "https://plus.unsplash.com/premium_photo-1687960116497-0dc41e1808a2"
+    ],
+    "overview": "A serene riverside retreat in Khulna. Guests can enjoy river views, relax by the outdoor pool, and start the day with a complimentary breakfast. \n \n Khulna Riverside Resort is perfect for nature lovers and those seeking a peaceful escape. Whether you're here for relaxation or adventure, the resort offers a comfortable setting for a memorable stay.",
+    "shortDescription": "Riverside resort with modern amenities.",
+    "thumbnailUrl": "https://plus.unsplash.com/premium_photo-1687960116497-0dc41e1808a2"
+  },
+  {
+    "_id": {
+      "$oid": "4778abf9111dffd547856641"
+    },
+    "name": "Rajshahi Heritage Inn",
+    "address": "Heritage Road 3, 6000 Rajshahi, Bangladesh",
+    "city": "Rajshahi",
+    "location": { "lat": 24.3745, "lng": 88.6042 },
+    "price": 210,
+    "currency": "BDT",
+    "postalCode": "6000",
+    "propertyCategory": 4,
+    "amenities": ["Cultural Tours", "Free WiFi", "Parking"],
+    "gallery": [
+      "https://plus.unsplash.com/premium_photo-1687960116497-0dc41e1808a2",
+      "https://plus.unsplash.com/premium_photo-1687960116497-0dc41e1808a2",
+      "https://plus.unsplash.com/premium_photo-1687960116497-0dc41e1808a2"
+    ],
+    "overview": "Experience the cultural richness of Rajshahi with a comfortable stay at Heritage Inn. The hotel offers guided tours, free Wi-Fi, and convenient parking for guests. \n \n Rajshahi Heritage Inn is perfect for travelers interested in exploring the heritage sites and attractions of the city. Whether you're here for business or leisure, the hotel provides a welcoming environment for a memorable visit.",
+    "shortDescription": "Hotel near cultural heritage sites.",
+    "thumbnailUrl": "https://plus.unsplash.com/premium_photo-1687960116497-0dc41e1808a2"
+  },
+  {
+    "_id": {
+      "$oid": "4778abf9111dffd547856642"
+    },
+    "name": "Bogura Boutique Hotel",
+    "address": "Market Road 12, 5800 Bogura, Bangladesh",
+    "city": "Bogura",
+    "location": { "lat": 24.8493, "lng": 89.3702 },
+    "price": 180,
+    "currency": "BDT",
+    "postalCode": "5800",
+    "propertyCategory": 3,
+    "amenities": [
+      "Free WiFi",
+      "Restaurant",
+      "Conference Room",
+      "Gallery",
+      "Free Breakfast",
+      "Spa"
+    ],
+    "gallery": [
+      "https://plus.unsplash.com/premium_photo-1687960116497-0dc41e1808a2",
+      "https://plus.unsplash.com/premium_photo-1687960116497-0dc41e1808a2",
+      "https://plus.unsplash.com/premium_photo-1687960116497-0dc41e1808a2"
+    ],
+    "overview": "Modern boutique hotel in Bogura's bustling market area. The hotel features a restaurant, conference room, and spa for guests' convenience. \n \n Bogura Boutique Hotel is ideal for travelers looking for a stylish and comfortable stay in the city. Whether you're here for business or leisure, the hotel provides a welcoming environment for a pleasant visit.",
+    "shortDescription": "Modern hotel in Bogura.",
+    "thumbnailUrl": "https://plus.unsplash.com/premium_photo-1687960116497-0dc41e1808a2"
+  },
+  {
+    "_id": {
+      "$oid": "4778abf9111dffd547856643"
+    },
+    "name": "Chittagong Ocean View",
+    "address": "Ocean Drive 5, 4000 Chittagong, Bangladesh",
+    "city": "Chittagong",
+    "location": { "lat": 22.3569, "lng": 91.7832 },
+    "price": 290,
+    "currency": "BDT",
+    "postalCode": "4000",
+    "propertyCategory": 5,
+    "amenities": ["Ocean View", "Spa", "Free Breakfast"],
+    "gallery": [
+      "https://plus.unsplash.com/premium_photo-1687960116497-0dc41e1808a2",
+      "https://plus.unsplash.com/premium_photo-1687960116497-0dc41e1808a2",
+      "https://plus.unsplash.com/premium_photo-1687960116497-0dc41e1808a2"
+    ],
+    "overview": "Luxury hotel with panoramic ocean views in Chittagong. Guests can enjoy spa treatments, complimentary breakfast, and the stunning beauty of the ocean. \n \n Chittagong Ocean View is perfect for travelers seeking a premium experience by the sea. Whether you're here for relaxation or adventure, the hotel offers a comfortable setting for a memorable stay.",
+    "shortDescription": "Luxury ocean-view hotel.",
+    "thumbnailUrl": "https://plus.unsplash.com/premium_photo-1687960116497-0dc41e1808a2"
+  },
+  {
+    "_id": {
+      "$oid": "4778abf9111dffd547856644"
+    },
+    "name": "Hotel Sunflower",
+    "address": "Park Road 14, 1000 Dhaka, Bangladesh",
+    "city": "Dhaka",
+    "location": { "lat": 23.7806, "lng": 90.2794 },
+    "price": 300,
+    "currency": "BDT",
+    "postalCode": "1000",
+    "propertyCategory": 5,
+    "amenities": [
+      "Rooftop Pool",
+      "Fitness Center",
+      "Free WiFi",
+      "Cultural Tours"
+    ],
+    "gallery": [
+      "https://plus.unsplash.com/premium_photo-1687960116497-0dc41e1808a2",
+      "https://plus.unsplash.com/premium_photo-1687960116497-0dc41e1808a2",
+      "https://plus.unsplash.com/premium_photo-1687960116497-0dc41e1808a2"
+    ],
+    "overview": "A premium hotel in the heart of Dhaka, offering modern amenities.\n \n Guests can enjoy a rooftop pool, state-of-the-art fitness center, and high-speed internet throughout the property.\n \n Perfect for business and leisure travelers alike, the hotel provides exceptional service and comfort.",
+    "shortDescription": "Premium hotel in Dhaka.",
+    "thumbnailUrl": "https://plus.unsplash.com/premium_photo-1687960116497-0dc41e1808a2"
+  },
+  {
+    "_id": {
+      "$oid": "4778abf9111dffd547856645"
+    },
+    "name": "Hillview Resort",
+    "address": "Hillview Lane 9, 4500 Rangamati, Bangladesh",
+    "city": "Rangamati",
+    "location": { "lat": 22.6449, "lng": 92.1653 },
+    "price": 220,
+    "currency": "BDT",
+    "postalCode": "4500",
+    "propertyCategory": 4,
+    "amenities": ["Hill View", "Nature Trails", "Free Breakfast", "Spa", "Gym"],
+    "gallery": [
+      "https://plus.unsplash.com/premium_photo-1687960116497-0dc41e1808a2",
+      "https://plus.unsplash.com/premium_photo-1687960116497-0dc41e1808a2",
+      "https://plus.unsplash.com/premium_photo-1687960116497-0dc41e1808a2"
+    ],
+    "overview": "A tranquil retreat amidst the hills of Rangamati. Guests can enjoy nature trails, complimentary breakfast, and spa treatments.\n \n Hillview Resort is perfect for those seeking a peaceful escape in a natural setting.",
+    "shortDescription": "Peaceful hill resort.",
+    "thumbnailUrl": "https://plus.unsplash.com/premium_photo-1687960116497-0dc41e1808a2"
+  },
+  {
+    "_id": {
+      "$oid": "4778abf9111dffd547856646"
+    },
+    "name": "Baywatch Suites",
+    "address": "Marine Drive 15, 4700 Cox's Bazar, Bangladesh",
+    "city": "Cox's Bazar",
+    "location": { "lat": 21.4272, "lng": 92.0058 },
+    "price": 400,
+    "currency": "BDT",
+    "postalCode": "4700",
+    "propertyCategory": 5,
+    "amenities": ["Oceanfront", "Private Beach", "Spa"],
+    "gallery": [
+      "https://plus.unsplash.com/premium_photo-1687960116497-0dc41e1808a2",
+      "https://plus.unsplash.com/premium_photo-1687960116497-0dc41e1808a2",
+      "https://plus.unsplash.com/premium_photo-1687960116497-0dc41e1808a2"
+    ],
+    "overview": "Luxurious suites overlooking the ocean with exclusive amenities and a private beach.\n \n Guests can indulge in spa treatments, relax by the sea, and enjoy the ultimate beachfront experience.\n \n Baywatch Suites is perfect for travelers seeking a premium stay by the coast.",
+    "shortDescription": "Luxurious beachfront suites.",
+    "thumbnailUrl": "https://plus.unsplash.com/premium_photo-1687960116497-0dc41e1808a2"
+  },
+  {
+    "_id": {
+      "$oid": "4778abf9111dffd547856647"
+    },
+    "name": "Sylhet Haven",
+    "address": "Green Street 8, 3100 Sylhet, Bangladesh",
+    "city": "Sylhet",
+    "location": { "lat": 24.8966, "lng": 91.8687 },
+    "price": 250,
+    "currency": "BDT",
+    "postalCode": "3100",
+    "propertyCategory": 4,
+    "amenities": ["Garden View", "Local Cuisine", "Free WiFi"],
+    "gallery": [
+      "https://plus.unsplash.com/premium_photo-1687960116497-0dc41e1808a2",
+      "https://plus.unsplash.com/premium_photo-1687960116497-0dc41e1808a2",
+      "https://plus.unsplash.com/premium_photo-1687960116497-0dc41e1808a2"
+    ],
+    "overview": "Experience the charm of Sylhet in a serene environment. Guests can enjoy garden views, local cuisine, and complimentary Wi-Fi. Sylhet Haven is perfect for travelers seeking a peaceful retreat with a touch of local flavor. Whether you're here for relaxation or exploration, the hotel offers a comfortable setting for a memorable stay. \n \n Sylhet Haven is a boutique hotel located in the heart of Sylhet, offering a unique blend of modern comfort and traditional hospitality. The hotel features elegantly designed rooms, a garden restaurant serving authentic local cuisine, and a cozy lounge area for relaxation. Guests can explore the vibrant city of Sylhet, visit nearby attractions, and experience the rich culture of the region. With attentive service and personalized attention, Sylhet Haven ensures a memorable stay for every guest.",
+    "thumbnailUrl": "https://plus.unsplash.com/premium_photo-1687960116497-0dc41e1808a2"
+  },
+  {
+    "_id": {
+      "$oid": "4778abf9111dffd547856648"
+    },
+    "name": "Barisal Breeze",
+    "address": "Canal Road 3, 8200 Barisal, Bangladesh",
+    "city": "Barisal",
+    "location": { "lat": 22.701, "lng": 90.3535 },
+    "price": 200,
+    "currency": "BDT",
+    "postalCode": "8200",
+    "propertyCategory": 3,
+    "amenities": ["River View", "Fishing Excursions", "Free Breakfast", "Gym"],
+    "gallery": [
+      "https://plus.unsplash.com/premium_photo-1687960116497-0dc41e1808a2",
+      "https://plus.unsplash.com/premium_photo-1687960116497-0dc41e1808a2",
+      "https://plus.unsplash.com/premium_photo-1687960116497-0dc41e1808a2"
+    ],
+    "overview": "A cozy riverside hotel offering scenic views and local activities. Guests can enjoy fishing excursions, complimentary breakfast, and a well-equipped gym. \n \n Barisal Breeze is perfect for travelers seeking a peaceful retreat with a touch of adventure. Whether you're here for relaxation or exploration, the hotel provides a comfortable setting for a memorable stay.",
+    "shortDescription": "Riverside hotel in Barisal.",
+    "thumbnailUrl": "https://plus.unsplash.com/premium_photo-1687960116497-0dc41e1808a2"
+  },
+  {
+    "_id": {
+      "$oid": "4778abf9111dffd547856649"
+    },
+    "name": "Comilla Elite",
+    "address": "Elite Lane 5, 3500 Comilla, Bangladesh",
+    "city": "Comilla",
+    "location": { "lat": 23.4578, "lng": 91.2046 },
+    "price": 230,
+    "currency": "BDT",
+    "postalCode": "3500",
+    "propertyCategory": 4,
+    "amenities": ["Conference Hall", "Fitness Center", "Free Parking"],
+    "gallery": [
+      "https://plus.unsplash.com/premium_photo-1687960116497-0dc41e1808a2",
+      "https://plus.unsplash.com/premium_photo-1687960116497-0dc41e1808a2",
+      "https://plus.unsplash.com/premium_photo-1687960116497-0dc41e1808a2"
+    ],
+    "overview": "An upscale hotel in Comilla offering top-notch facilities for travelers.\n \n The hotel features a modern conference hall, a well-equipped fitness center, and spacious parking.\n \n Experience comfort and convenience at its best at Comilla Elite.",
+    "shortDescription": "Upscale hotel in Comilla.",
+    "thumbnailUrl": "https://plus.unsplash.com/premium_photo-1687960116497-0dc41e1808a2"
+  },
+  {
+    "_id": {
+      "$oid": "4778abf9111dffd54785664a"
+    },
+    "name": "Rajshahi Retreat",
+    "address": "Mango Street 12, 6000 Rajshahi, Bangladesh",
+    "city": "Rajshahi",
+    "location": { "lat": 24.3667, "lng": 88.6 },
+    "price": 210,
+    "currency": "BDT",
+    "postalCode": "6000",
+    "propertyCategory": 4,
+    "amenities": ["Mango Orchards", "Bike Rentals", "Free WiFi"],
+    "gallery": [
+      "https://plus.unsplash.com/premium_photo-1687960116497-0dc41e1808a2",
+      "https://plus.unsplash.com/premium_photo-1687960116497-0dc41e1808a2",
+      "https://plus.unsplash.com/premium_photo-1687960116497-0dc41e1808a2"
+    ],
+    "overview": "Nestled among the famous mango orchards of Rajshahi. Guests can explore the lush surroundings, rent bikes for local tours, and enjoy complimentary Wi-Fi. \n \n Rajshahi Retreat is perfect for travelers seeking a peaceful escape in a natural setting. Whether you're here for relaxation or adventure, the hotel offers a comfortable base for a memorable stay.",
+    "shortDescription": "Cultural getaway in Rajshahi.",
+    "thumbnailUrl": "https://plus.unsplash.com/premium_photo-1687960116497-0dc41e1808a2"
+  },
+  {
+    "_id": {
+      "$oid": "4778abf9111dffd54785664b"
+    },
+    "name": "Khulna Comfort",
+    "address": "Garrison Avenue 20, 9000 Khulna, Bangladesh",
+    "city": "Khulna",
+    "location": { "lat": 22.8167, "lng": 89.55 },
+    "price": 240,
+    "currency": "BDT",
+    "postalCode": "9000",
+    "propertyCategory": 4,
+    "amenities": [
+      "City View",
+      "Rooftop Café",
+      "Free Breakfast",
+      "Beach Access"
+    ],
+    "gallery": [
+      "https://plus.unsplash.com/premium_photo-1687960116497-0dc41e1808a2",
+      "https://plus.unsplash.com/premium_photo-1687960116497-0dc41e1808a2",
+      "https://plus.unsplash.com/premium_photo-1687960116497-0dc41e1808a2"
+    ],
+    "overview": "A comfortable city hotel located in the heart of Khulna. Guests can enjoy city views, relax at the rooftop café, and start the day with a complimentary breakfast. \n \n Khulna Comfort is perfect for travelers seeking a cozy stay with easy access to local attractions. Whether you're here for business or leisure, the hotel provides a welcoming environment for a memorable visit.",
+    "shortDescription": "Cozy city hotel in Khulna.",
+    "thumbnailUrl": "https://plus.unsplash.com/premium_photo-1687960116497-0dc41e1808a2"
+  }
+]

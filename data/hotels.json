@@ -1,0 +1,191 @@
+[
+  {
+    "name": "Blue Lagoon Resort",
+    "address": "Kenan Evren Bulvari No: 13, 48700 Marmaris, Turkey",
+    "location": {
+      "lat": 36.855,
+      "lng": 28.274
+    },
+    "airportCode": "DLM",
+    "city": "Marmaris",
+    "country": "Turkey",
+    "countryCode": "TR",
+    "highestRate": 287,
+    "lowestRate": 150,
+    "currency": "USD",
+    "postalCode": "48700",
+    "propertyCategory": 5,
+
+    "amenities": [1, 2, 3, 4, 5, 6, 7, 8, 9],
+    "gallery": [
+      "https://plus.unsplash.com/premium_photo-1687960116497-0dc41e1808a2?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://plus.unsplash.com/premium_photo-1687960116497-0dc41e1808a2?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://plus.unsplash.com/premium_photo-1687960116497-0dc41e1808a2?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    ],
+    "overview": "Located in Marmaris, Blue Lagoon Resort is a 2-minute walk from the beach. It offers an outdoor pool and a terrace with panoramic views of the Aegean Sea. The air-conditioned rooms have a private balcony.",
+    "shortDescription": "Located in Marmaris, Blue Lagoon Resort is a 2-minute walk from the beach. It offers an outdoor pool and a terrace with panoramic views of the Aegean Sea. The air-conditioned rooms have a private balcony.",
+    "thumnailUrl": "https://plus.unsplash.com/premium_photo-1687960116497-0dc41e1808a2?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "name": "Sunset Paradise Hotel",
+    "address": "Beach Road No: 45, 90000 Dhaka, Bangladesh",
+    "city": "Dhaka",
+    "location": {
+      "lat": 36.855,
+      "lng": 28.274
+    },
+    "highestRate": 320,
+    "lowestRate": 180,
+    "currency": "BDT",
+    "postalCode": "90000",
+    "propertyCategory": 5,
+    "amenities": ["Pool", "Spa", "Free WiFi"],
+    "gallery": [
+      "https://plus.unsplash.com/premium_photo-1687960116497-0dc41e1808a2?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://plus.unsplash.com/premium_photo-1687960116497-0dc41e1808a2?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://plus.unsplash.com/premium_photo-1687960116497-0dc41e1808a2?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    ],
+    "overview": "Sunset Paradise Hotel offers luxury and comfort by the ocean.",
+    "shortDescription": "A luxurious beachfront hotel with breathtaking views.",
+    "thumnailUrl": "https://plus.unsplash.com/premium_photo-1687960116497-0dc41e1808a2?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "name": "Mountain View Lodge",
+    "address": "Hillside 20, 50000 Chittagong, Bangladesh",
+    "city": "Chittagong",
+    "location": {
+      "lat": 36.855,
+      "lng": 28.274
+    },
+
+    "highestRate": 250,
+    "lowestRate": 130,
+    "currency": "BDT",
+    "postalCode": "50000",
+    "propertyCategory": 4,
+    "amenities": ["Free Parking", "Breakfast", "Gym"],
+    "gallery": [
+      "https://plus.unsplash.com/premium_photo-1687960116497-0dc41e1808a2?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://plus.unsplash.com/premium_photo-1687960116497-0dc41e1808a2?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://plus.unsplash.com/premium_photo-1687960116497-0dc41e1808a2?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    ],
+    "overview": "Nestled in the hills, offering stunning mountain views.",
+    "shortDescription": "A cozy lodge with nature all around.",
+    "thumnailUrl": "https://plus.unsplash.com/premium_photo-1687960116497-0dc41e1808a2?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "name": "Royal Palm Resort",
+    "address": "Palm Avenue 12, 40000 Cox's Bazar, Bangladesh",
+    "city": "Dhaka",
+    "location": {
+      "airportCode": "CXB",
+      "country": "Bangladesh",
+      "countryCode": "BN"
+    },
+    "highestRate": 400,
+    "lowestRate": 220,
+    "currency": "BDT",
+    "postalCode": "40000",
+    "propertyCategory": 5,
+    "amenities": ["Ocean View", "Private Beach", "Restaurant"],
+    "gallery": [
+      "https://plus.unsplash.com/premium_photo-1687960116497-0dc41e1808a2?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://plus.unsplash.com/premium_photo-1687960116497-0dc41e1808a2?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://plus.unsplash.com/premium_photo-1687960116497-0dc41e1808a2?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    ],
+    "overview": "A luxurious stay at the longest sea beach in the world.",
+    "shortDescription": "Exclusive beachfront resort with premium services.",
+    "thumnailUrl": "https://plus.unsplash.com/premium_photo-1687960116497-0dc41e1808a2?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "name": "Green Valley Retreat",
+    "address": "Green Lane 5, 60000 Sylhet, Bangladesh",
+    "city": "Sylhet",
+    "location": {
+      "lat": 36.855,
+      "lng": 28.274
+    },
+    "highestRate": 275,
+    "lowestRate": 145,
+    "currency": "BDT",
+    "postalCode": "60000",
+    "propertyCategory": 4,
+    "amenities": ["Nature Walks", "Spa", "Garden"],
+    "gallery": [
+      "https://plus.unsplash.com/premium_photo-1687960116497-0dc41e1808a2?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://plus.unsplash.com/premium_photo-1687960116497-0dc41e1808a2?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://plus.unsplash.com/premium_photo-1687960116497-0dc41e1808a2?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    ],
+    "overview": "Relax in the heart of nature in Sylhet.",
+    "shortDescription": "Peaceful and luxurious retreat surrounded by greenery.",
+    "thumnailUrl": "https://plus.unsplash.com/premium_photo-1687960116497-0dc41e1808a2?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "name": "Skyline Hotel",
+    "address": "Tower Road 88, 70000 Khulna, Bangladesh",
+    "city": "Sylhet",
+    "location": {
+      "lat": 36.855,
+      "lng": 28.274
+    },
+    "highestRate": 290,
+    "lowestRate": 160,
+    "currency": "BDT",
+    "postalCode": "70000",
+    "propertyCategory": 4,
+    "amenities": ["City View", "Pool", "Restaurant"],
+    "gallery": [
+      "https://plus.unsplash.com/premium_photo-1687960116497-0dc41e1808a2?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://plus.unsplash.com/premium_photo-1687960116497-0dc41e1808a2?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://plus.unsplash.com/premium_photo-1687960116497-0dc41e1808a2?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    ],
+    "overview": "Modern hotel located in the heart of Khulna.",
+    "shortDescription": "Experience luxury in a modern setting.",
+    "thumnailUrl": "https://plus.unsplash.com/premium_photo-1687960116497-0dc41e1808a2?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "name": "Seaside Serenity Hotel",
+    "address": "Ocean Drive 19, 35000 Cox's Bazar, Bangladesh",
+    "city": "Sylhet",
+    "location": {
+      "lat": 36.855,
+      "lng": 28.274
+    },
+    "highestRate": 310,
+    "lowestRate": 175,
+    "currency": "BDT",
+    "postalCode": "35000",
+    "propertyCategory": 5,
+    "amenities": ["Private Balcony", "Ocean View", "Spa"],
+    "gallery": [
+      "https://plus.unsplash.com/premium_photo-1687960116497-0dc41e1808a2?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://plus.unsplash.com/premium_photo-1687960116497-0dc41e1808a2?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://plus.unsplash.com/premium_photo-1687960116497-0dc41e1808a2?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    ],
+    "overview": "Unwind by the sea with world-class services.",
+    "shortDescription": "Elegant resort with beachfront access.",
+    "thumnailUrl": "https://plus.unsplash.com/premium_photo-1687960116497-0dc41e1808a2?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "name": "Lakeside Inn",
+    "address": "Lakeview 21, 45000 Chittagong, Bangladesh",
+    "city": "Chittagong",
+    "location": {
+      "lat": 36.855,
+      "lng": 28.274
+    },
+    "rate": 240,
+    "currency": "BDT",
+    "postalCode": "5810",
+    "propertyCategory": 3,
+    "amenities": ["Lake View", "Free WiFi", "Parking"],
+    "gallery": [
+      "https://plus.unsplash.com/premium_photo-1687960116497-0dc41e1808a2?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://plus.unsplash.com/premium_photo-1687960116497-0dc41e1808a2?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://plus.unsplash.com/premium_photo-1687960116497-0dc41e1808a2?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    ],
+    "overview": "Lakeside Inn is a luxurious haven in the heart of Chittagong, offering a seamless blend of modern elegance and timeless hospitality. Designed for business travelers, families, and couples alike, the hotel features stylish accommodations equipped with plush bedding, smart TVs, high-speed Wi-Fi, and private balconies with stunning views. Every detail is crafted to provide comfort, relaxation, and a sense of home away from home.\n Dining at Lakeside Inn is a culinary journey, with options ranging from a sophisticated restaurant serving international and local delicacies to a cozy café perfect for artisan coffee and light bites. Guests can unwind at the chic lounge bar, savoring signature cocktails and snacks in a vibrant atmosphere. The hotel also boasts a spa for rejuvenation, an infinity pool with breathtaking views, and a state-of-the-art fitness center, ensuring guests have everything they need for a memorable stay. \n Conveniently located near [airport/landmark], the hotel provides easy access to local attractions, outdoor adventures, and cultural experiences. With versatile event spaces equipped for meetings and celebrations, along with attentive multilingual staff, Lakeside Inn is the perfect destination for a blend of luxury, comfort, and personalized service.",
+    "shortDescription": "Charming inn by the lakeside.",
+    "thumnailUrl": "https://plus.unsplash.com/premium_photo-1687960116497-0dc41e1808a2?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  }
+]

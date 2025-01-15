@@ -1,0 +1,79 @@
+[
+  {
+    "id": 1,
+    "name": "Free Wi-Fi",
+    "icon": "wifi",
+    "price": 0,
+    "description": "Free Wi-Fi is available in all areas and is free of charge."
+  },
+  {
+    "id": 2,
+    "name": "Free Parking",
+    "icon": "parking",
+    "price": 0,
+    "description": "Free private parking is available on site (reservation is not needed)."
+  },
+  {
+    "id": 3,
+    "name": "Airport Shuttle",
+    "icon": "airport_shuttle",
+    "price": 15,
+    "description": "Airport shuttle is available at an additional charge."
+  },
+  {
+    "id": 4,
+    "name": "Swimming Pool",
+    "icon": "pool",
+    "price": 0,
+    "description": "Outdoor pool is available for all guests."
+  },
+  {
+    "id": 5,
+    "name": "Fitness Center",
+    "icon": "fitness_center",
+    "price": 0,
+    "description": "Fitness center is available for all guests."
+  },
+  {
+    "id": 6,
+    "name": "Spa",
+    "icon": "spa",
+    "price": 50,
+    "description": "Spa is available at an additional charge."
+  },
+  {
+    "id": 7,
+    "name": "Restaurant",
+    "icon": "restaurant",
+    "price": 0,
+    "description": "Restaurant is available for all guests."
+  },
+  {
+    "id": 8,
+    "name": "Bar",
+    "icon": "local_bar",
+    "price": 0,
+    "description": "Bar is available for all guests."
+  },
+  {
+    "id": 9,
+    "name": "Room Service",
+    "icon": "room_service",
+    "price": 0,
+    "description": "Room service is available for all guests."
+  },
+  {
+    "id": 10,
+    "name": "24-Hour Front Desk",
+    "icon": "front_desk",
+    "price": 0,
+    "description": "24-hour front desk is available for all guests."
+  },
+  {
+    "id": 11,
+    "name": "Concierge Service",
+    "icon": "concierge",
+    "price": 0,
+    "description": "Concierge service is available for all guests."
+  }
+]

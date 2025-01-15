@@ -1,0 +1,50 @@
+[
+  {
+    "rating": 5,
+    "content": "Absolutely wonderful stay! The pool view was breathtaking and the staff was incredibly attentive. The room was spotless and modern.",
+    "hotel": "6778f4c9111dffd5478a663c",
+    "user": "5f43f7f7f3f6b53d7c9b3b1a",
+    "createdAt": "2024-10-15T00:00:00.000Z",
+    "updatedAt": "2024-10-15T00:00:00.000Z"
+  },
+  {
+    "rating": 4,
+    "content": "Great location and beautiful property. The restaurant offered excellent dining options. Only minor issue was slow WiFi in some areas.",
+    "user": "5f43f7f7f3f6b53d7c9b3b1b",
+    "hotel": "6778f4c9111dffd5478a663d",
+    "createdAt": "2024-10-15T00:00:00.000Z",
+    "updatedAt": "2024-10-15T00:00:00.000Z"
+  },
+  {
+    "rating": 3,
+    "content": "The room was not very clean and the bathroom was outdated. The staff was friendly and the location was good.",
+    "user": "5f43f7f7f3f6b53d7c9b3b1c",
+    "hotel": "6778f4c9111dffd5478a663d",
+    "createdAt": "2024-10-15T00:00:00.000Z",
+    "updatedAt": "2024-10-15T00:00:00.000Z"
+  },
+  {
+    "rating": 5,
+    "content": "The staff was very friendly and the location was perfect. The room was spacious and the bed was comfortable.",
+    "user": "5f43f7f7f3f6b53d7c9b3b1d",
+    "hotel": "6778f4c9111dffd5478a663c",
+    "createdAt": "2024-10-15T00:00:00.000Z",
+    "updatedAt": "2024-10-15T00:00:00.000Z"
+  },
+  {
+    "rating": 4,
+    "content": "The hotel was clean and the staff was very helpful. The location was good and the restaurant had great food.",
+    "user": "5f43f7f7f3f6b53d7c9b3b1e",
+    "hotel": "6778f4c9111dffd5478a663c",
+    "createdAt": "2024-10-15T00:00:00.000Z",
+    "updatedAt": "2024-10-15T00:00:00.000Z"
+  },
+  {
+    "rating": 3,
+    "content": "The hotel was very noisy and the room was not very clean. The staff was friendly and the location was good.",
+    "user": "5f43f7f7f3f6b53d7c9b3b1f",
+    "hotel": "6778f4c9111dffd5478a663c",
+    "createdAt": "2024-10-15T00:00:00.000Z",
+    "updatedAt": "2024-10-15T00:00:00.000Z"
+  }
+]
