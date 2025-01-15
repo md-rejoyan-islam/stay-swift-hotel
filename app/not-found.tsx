@@ -1,6 +1,7 @@
 import Link from "next/link";
 
 import { Button } from "@/components/ui/button";
+import Image from "next/image";
 
 export default function NotFound() {
   return (
@@ -11,7 +12,7 @@ export default function NotFound() {
       <p className="text-xl mb-8 text-center dark:text-sky-200">
         Oops! The page you&apos;re looking for doesn&apos;t exist.
       </p>
-      <img
+      <Image
         src="/placeholder.svg?height=200&width=200"
         alt="404 illustration"
         className="mb-8"

@@ -1,6 +1,7 @@
 "use client";
 
 import { Button } from "@/components/ui/button";
+import Image from "next/image";
 import { useEffect } from "react";
 
 export default function Error({
@@ -22,7 +23,7 @@ export default function Error({
       <p className="text-xl mb-8 text-center dark:text-sky-200">
         We apologize for the inconvenience. An error has occurred.
       </p>
-      <img
+      <Image
         src="/placeholder.svg?height=200&width=200"
         alt="Error illustration"
         className="mb-8"

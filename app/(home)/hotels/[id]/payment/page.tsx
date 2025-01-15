@@ -5,6 +5,7 @@ import { PaymentSummary } from "@/components/payment/payment-summary";
 import { Card } from "@/components/ui/card";
 import { auth } from "@/lib/auth";
 import { SessionType } from "@/lib/types";
+import Image from "next/image";
 import { redirect } from "next/navigation";
 
 export default async function PaymentPage({ searchParams, params }) {
@@ -56,17 +57,23 @@ export default async function PaymentPage({ searchParams, params }) {
               Secure payments handled by Stripe
             </div>
             <div className="grid grid-cols-3 gap-4">
-              <img
+              <Image
                 src="/placeholder.svg?height=30&width=50"
                 alt="Visa"
                 className="h-8 object-contain dark:opacity-70"
+                width={50}
+                height={30}
               />
-              <img
+              <Image
+                width={50}
+                height={30}
                 src="/placeholder.svg?height=30&width=50"
                 alt="Mastercard"
                 className="h-8 object-contain dark:opacity-70"
               />
-              <img
+              <Image
+                width={50}
+                height={30}
                 src="/placeholder.svg?height=30&width=50"
                 alt="American Express"
                 className="h-8 object-contain dark:opacity-70"

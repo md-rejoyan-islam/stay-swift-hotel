@@ -1,7 +1,4 @@
-import {
-  getHotelById,
-  getHotelReviewsById,
-} from "@/app/db/queries/hotel/hotel.query";
+import { getHotelById } from "@/app/db/queries/hotel/hotel.query";
 import DetailsGallery from "@/components/hotels/details/details-gallery";
 import ReviewCard from "@/components/hotels/reviews/review-card";
 import { Badge } from "@/components/ui/badge";
@@ -21,7 +18,7 @@ export default async function HotelDetails({
   const { checkIn, checkOut } = await searchParams;
 
   const hotel = (await getHotelById(id)) as HOTEL_TYPE;
-  const reviews = await getHotelReviewsById(id);
+  // const reviews = await getHotelReviewsById(id);
 
   return (
     <div className="container max-width mx-auto px-4 py-8 ">
