@@ -13,7 +13,7 @@ export const getBookingByUserId = async (userId: string) => {
 
   if (!booking) return [];
 
-  return booking?.map((booking: any) => {
+  return booking?.map((booking) => {
     return {
       ...booking,
       _id: booking._id.toString(),

@@ -8,7 +8,13 @@ import { SessionType } from "@/lib/types";
 import Image from "next/image";
 import { redirect } from "next/navigation";
 
-export default async function PaymentPage({ searchParams, params }) {
+export default async function PaymentPage({
+  searchParams,
+  params,
+}: {
+  searchParams: Promise<{ checkIn: string; checkOut: string }>;
+  params: Promise<{ id: string }>;
+}) {
   const session = (await auth()) as unknown as SessionType;
 
   const { id } = await params;

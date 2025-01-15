@@ -79,11 +79,11 @@ export async function giveReview(data: Review) {
       ...data,
     });
 
-    const reviewData = (await Review.findById(review._id)
+    const reviewData = await Review.findById(review._id)
       .populate("user")
       .populate("hotel")
       .lean()
-      .exec()) as any;
+      .exec();
 
     return {
       message: "Review added successfully",

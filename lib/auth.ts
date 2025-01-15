@@ -45,7 +45,7 @@ export const {
           // console.log(user);
 
           return user;
-        } catch (error: any) {
+        } catch (error) {
           throw new Error(error.message);
         }
       },

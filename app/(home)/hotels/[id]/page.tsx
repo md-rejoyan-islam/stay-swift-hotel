@@ -10,8 +10,8 @@ export default async function HotelDetails({
   params,
   searchParams,
 }: {
-  params: { id: string };
-  searchParams: { checkIn: string; checkOut: string };
+  params: Promise<{ id: string }>;
+  searchParams: Promise<{ checkIn: string; checkOut: string }>;
 }) {
   const { id } = await params;
 

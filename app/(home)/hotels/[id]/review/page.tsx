@@ -44,7 +44,7 @@ const reviews: Review[] = [
 export default async function ReviewsPage({
   params,
 }: {
-  params: { id: string };
+  params: Promise<{ id: string }>;
 }) {
   const { id } = await params;
 
